@@ -113,3 +113,55 @@ nav li {
 nav li:hover {
   color: lightseagreen;
 }
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-header h1 {
+  font-size: 35px;
+  border-bottom: solid 3px lightseagreen;
+}
+.about-header p {
+  font-size: 20px;
+  color: gray;
+}
+.about-footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-footer img {
+  width: 40%;
+  height: 53vh;
+}
+.about-footer h3 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 15px;
+}
+.aside {
+  width: 35%;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aside p {
+  font-size: 20px;
+  color: grey;
+}
