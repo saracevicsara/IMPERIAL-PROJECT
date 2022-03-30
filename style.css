@@ -215,8 +215,12 @@ nav li:hover {
   align-items: center;
   border-radius: 50%;
   background-color: lightseagreen;
+  border: 1px solid lightseagreen;
 }
 .icons {
   color: white;
   font-size: 20px;
+}
+.briefcase-icon {
+  background-color: transparent;
 }
