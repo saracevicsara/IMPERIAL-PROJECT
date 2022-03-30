@@ -89,6 +89,7 @@ nav {
   height: 10vh;
   background-color: rgb(15, 15, 15);
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -130,8 +131,10 @@ nav li:hover {
   align-items: center;
 }
 .about-header h1 {
-  font-size: 35px;
+  font-size: 30px;
   border-bottom: solid 3px lightseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 520;
 }
 .about-header p {
   font-size: 20px;
@@ -149,12 +152,14 @@ nav li:hover {
   height: 53vh;
 }
 .about-footer h3 {
-  font-size: 28px;
-  color: black;
+  font-size: 24px;
+  color: rgb(48, 45, 45);
+  font-weight: 560;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 15px;
 }
 .aside {
-  width: 35%;
+  width: 40%;
   height: 50vh;
   padding: 20px;
   display: flex;
@@ -164,4 +169,54 @@ nav li:hover {
 .aside p {
   font-size: 20px;
   color: grey;
+}
+.services-pic {
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+}
+.transparent-2 {
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+  background: rgba(231, 226, 226, 0.8);
+  z-index: 1;
+}
+.services {
+  width: 100%;
+  height: 75vh;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.briefcase {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+.services h1 {
+  font-size: 30px;
+  z-index: 2;
+}
+.header-p {
+  font-size: 18px;
+  color: gray;
+  font-weight: 400;
+  margin-top: 20px;
+  z-index: 3;
+}
+.briefcase-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: lightseagreen;
+}
+.icons {
+  color: white;
+  font-size: 20px;
 }
