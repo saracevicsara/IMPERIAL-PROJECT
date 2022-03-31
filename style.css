@@ -44,7 +44,7 @@ main h1 {
 main h2 {
   font-size: 40px;
 }
-main h3 {
+.anim-p {
   font-size: 30px;
   color: rgb(148, 147, 147);
   font-weight: 100;
@@ -109,7 +109,7 @@ li {
 }
 nav li {
   font-size: 18px;
-  padding: 0 6px;
+  padding: 0 8px;
 }
 nav li:hover {
   color: lightseagreen;
@@ -179,48 +179,144 @@ nav li:hover {
   width: 100%;
   height: 75vh;
   position: absolute;
-  background: rgba(231, 226, 226, 0.8);
+  background: rgba(250, 250, 250, 0.9);
   z-index: 1;
 }
 .services {
   width: 100%;
   height: 75vh;
-  z-index: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .briefcase {
+  width: 100%;
+  height: 20vh;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   flex-direction: row;
   z-index: 1;
 }
-.services h1 {
+.header-services {
+  width: 100%;
+  height: 15vh;
+}
+.header-services-h1 {
   font-size: 30px;
-  z-index: 2;
+  color: black;
+  margin-top: 20px;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+  z-index: 20;
+  border-bottom: 3px solid lightseagreen;
 }
 .header-p {
   font-size: 18px;
   color: gray;
   font-weight: 400;
-  margin-top: 20px;
-  z-index: 3;
+
+  z-index: 50;
 }
 .briefcase-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-color: lightseagreen;
   border: 1px solid lightseagreen;
+  margin-left: 15px;
 }
 .icons {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
-.briefcase-icon {
+.briefcase-icon:hover,
+.icons:hover {
   background-color: transparent;
+  color: lightseagreen;
+}
+.briefcase p {
+  font-size: 17px;
+  color: gray;
+}
+section main h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-row {
+  width: 23%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 700px) {
+  .about-footer img {
+    width: 100%;
+    height: 40vh;
+  }
+  .about {
+    width: 100%;
+    height: 120vh;
+  }
+  .about-footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 20;
+  }
+  .aside {
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .services img,
+  .transparent-2 {
+    width: 150%;
+    height: 100vh;
+  }
+  .header-p {
+    text-align: center;
+  }
+  .briefcase {
+    width: 100%;
+    height: 40vh;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .card-row {
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }

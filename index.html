@@ -19,7 +19,7 @@
       <main>
         <h1>IMPERIAL</h1>
         <h2>WELCOME TO IMPERIAL STUDIOS</h2>
-        <h3>We create functional websites|</h3>
+        <h3 class="anim-p">We create functional websites|</h3>
         <div class="button-position">
           <button class="button-1">GET STARTED</button>
           <button class="button-2">OUR SERVICES</button>
@@ -30,8 +30,8 @@
       <h1>IMPERIAL</h1>
       <ul>
         <li>Home</li>
-        <li>About</li>
-        <li>Servicies</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
         <li>Portfolio</li>
         <li>Testimonials</li>
         <li>Team</li>
@@ -40,7 +40,7 @@
       </ul>
     </nav>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-header">
         <h1>ABOUT US</h1>
         <p>
@@ -73,82 +73,96 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <img src="./services-bg.jpg" class="services-pic" />
-      <div class="services"></div>
-      <h1>OUR SERVICES</h1>
+      <div class="transparent-2"></div>
+      <!-- <div class="header-services"> -->
+      <h1 class="header-services-h1">OUR SERVICES</h1>
       <p class="header-p">
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium
       </p>
+      <!-- </div> -->
       <main class="briefcase">
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-briefcase icons"></i>
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-briefcase icons"></i>
+          </div>
+          <div>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
-        <div>
-          <h3>LOREM IPSUM</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-square-check icons"></i>
+          </div>
+          <div>
+            <h3>DOLOR SITEMA</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-square-check icons"></i>
-        </div>
-        <div>
-          <h3>DOLOR SITEMA</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
-        </div>
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-chart-bar icons"></i>
-        </div>
-        <div>
-          <h3>SED UT PERSPICIATIS</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-chart-bar icons"></i>
+          </div>
+          <div>
+            <h3>SED UT PERSPICIATIS</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
       </main>
-      <main class="briefcase">
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-briefcase icons"></i>
+      <main class="briefcase briefcase-2">
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-briefcase icons"></i>
+          </div>
+          <div>
+            <h3>MAGNI DOLORES</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
-        <div>
-          <h3>MAGNI DOLORES</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-sun icons"></i>
+          </div>
+          <div>
+            <h3>NEMO ENIM</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-sun icons"></i>
-        </div>
-        <div>
-          <h3>NEMO ENIM</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
-        </div>
-        <div class="briefcase-icon">
-          <i class="fa-solid fa-calendar icons"></i>
-        </div>
-        <div>
-          <h3>EIUSMOD TEMPOR</h3>
-          <p>
-            Voluptatum deleniti atque corrupti quos <br />
-            dolores et quas molestias excepturi sint <br />
-            occaecati cupiditate non provident
-          </p>
+        <div class="card-row">
+          <div class="briefcase-icon">
+            <i class="fa-solid fa-calendar icons"></i>
+          </div>
+          <div>
+            <h3>EIUSMOD TEMPOR</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos <br />
+              dolores et quas molestias excepturi sint <br />
+              occaecati cupiditate non provident
+            </p>
+          </div>
         </div>
       </main>
     </section>
