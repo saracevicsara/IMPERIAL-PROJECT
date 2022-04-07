@@ -325,8 +325,8 @@ section main h3 {
   height: 40vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .section-subscribe img {
   width: 100%;
@@ -349,7 +349,7 @@ section main h3 {
 .section-subscribe p {
   color: white;
   z-index: 5;
-  font-size: 17px;
+  font-size: 18px;
 }
 .section-subscribe button {
   z-index: 5;
@@ -361,11 +361,75 @@ section main h3 {
   background-color: lightseagreen;
   border: none;
 }
+.subscribe {
+  width: 70%;
+  height: 50%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .subscribe-footer {
   width: 100%;
   height: 50%;
   z-index: 10;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+.portfolio {
+  width: 100%;
+  height: 150vh;
+}
+.portfolio-nav {
+  width: 100%;
+  height: 6vh;
+  background-color: white;
+  z-index: 3;
+}
+.portfolio-li {
+  font-size: 15px;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+.portfolio-header {
+  width: 100%;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+}
+.portfolio-header h1 {
+  font-size: 28px;
+  border-bottom: 3px solid lightseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portfolio-header p {
+  color: gray;
+  font-size: 18px;
+}
+.portfolio-img {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.portfolio-img img {
+  width: 28%;
+  height: 40vh;
+}
+.column-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolio-footer {
+  width: 100%;
+  height: 15vh;
 }
