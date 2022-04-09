@@ -395,7 +395,8 @@ section main h3 {
   font-weight: 700;
 }
 .portfolio-header,
-.testimonials-header {
+.testimonials-header,
+.team-header {
   width: 100%;
   height: 15vh;
   display: flex;
@@ -403,16 +404,27 @@ section main h3 {
   justify-content: space-evenly;
   align-items: center;
 }
+.testimonials-header {
+  justify-content: flex-end;
+}
 .portfolio-header h1,
-.testimonials h1 {
+.testimonials h1,
+.team h1 {
   font-size: 28px;
   border-bottom: 3px solid lightseagreen;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.testimonials h1 {
+  margin-top: 20px;
+}
 .portfolio-header p,
-.testimonials p {
+.testimonials p,
+.team p {
   color: gray;
   font-size: 18px;
+}
+.testimonials p {
+  margin-top: 15px;
 }
 .portfolio-img {
   width: 100%;
@@ -437,22 +449,22 @@ section main h3 {
 }
 .testimonials {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background-color: whitesmoke;
 }
 .client-1 {
-  width: 50%;
-  height: 40vh;
+  width: 20%;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 .client-1 img {
-  width: 30%;
-  height: 30vh;
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
-  border: 4px solid white;
+  border: 7px solid white;
 }
 .client-1 h1 {
   font-size: 25px;
@@ -464,9 +476,10 @@ section main h3 {
   height: 40vh;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .client-aside {
-  width: 50%;
+  width: 70%;
   height: 40vh;
   display: flex;
   align-items: center;
@@ -474,14 +487,20 @@ section main h3 {
 }
 .client-aside h4 {
   font-weight: 100;
-  color: rgb(48, 47, 47);
+  color: rgb(102, 101, 101);
   font-size: 19px;
 }
 .aside-color {
-  width: 90%;
-  height: 20vh;
+  width: 100%;
+  height: 23vh;
   background-color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.team {
+  width: 100%;
+  height: 90vh;
+  display: flex;
 }
