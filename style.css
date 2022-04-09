@@ -211,7 +211,13 @@ nav li:hover {
   font-family: Geneva, Tahoma, sans-serif;
   font-weight: 550;
   z-index: 20;
-  border-bottom: 3px solid lightseagreen;
+}
+.services-hr {
+  width: 4%;
+  height: 3px;
+  background-color: lightseagreen;
+  border: none;
+  z-index: 5;
 }
 .header-p {
   font-size: 18px;
@@ -411,9 +417,15 @@ section main h3 {
 .testimonials h1,
 .team h1 {
   font-size: 28px;
-  border-bottom: 3px solid lightseagreen;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+hr {
+  width: 4%;
+  height: 3px;
+  background-color: lightseagreen;
+  border: none;
+}
+
 .testimonials h1 {
   margin-top: 20px;
 }
@@ -503,4 +515,49 @@ section main h3 {
   width: 100%;
   height: 90vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-position {
+  width: 80%;
+  height: 60vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.team-card {
+  width: 24%;
+  height: 45vh;
+}
+.team-card img {
+  width: 100%;
+  height: 75%;
+}
+.team-card h2 {
+  font-size: 25px;
+  color: rgb(100, 100, 100);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.team-card p {
+  font-size: 17px;
+  color: rgb(165, 164, 164);
+  font-style: italic;
+}
+.card-footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.color-card {
+  font-size: 20px;
+  color: rgb(179, 178, 178);
+}
+.color-card:hover {
+  color: lightseagreen;
 }
