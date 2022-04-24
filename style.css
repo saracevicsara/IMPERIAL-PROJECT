@@ -401,7 +401,8 @@ section main h3 {
 }
 .portfolio-header,
 .testimonials-header,
-.team-header {
+.team-header,
+.contact-header {
   width: 100%;
   height: 15vh;
   display: flex;
@@ -414,7 +415,8 @@ section main h3 {
 }
 .portfolio-header h1,
 .testimonials h1,
-.team h1 {
+.team h1,
+.contact-header h1 {
   font-size: 28px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -430,7 +432,8 @@ hr {
 }
 .portfolio-header p,
 .testimonials p,
-.team p {
+.team p,
+.contact-header p {
   color: gray;
   font-size: 18px;
 }
@@ -583,4 +586,69 @@ hr {
     width: 100%;
     height: 30vh;
   }
+}
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+}
+.position-contact {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-card,
+.contact-card-input {
+  width: 25%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.contact-card-input {
+  width: 50%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact-icons {
+  font-size: 32px;
+  color: lightseagreen;
+}
+.contact-declaration {
+  color: black;
+  font-weight: 0;
+  font-size: 18px;
+}
+.icons-position,
+.icons-position-first {
+  width: 70%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons-position-first {
+  width: 80%;
+}
+.contact-card-input input {
+  width: 85%;
+  height: 5vh;
+  border: solid 1px rgb(153, 153, 153);
+  font-size: 17px;
+}
+.contact-button {
+  background-color: lightseagreen;
+  color: white;
+}
+.contact-button:hover {
+  background-color: transparent;
+  color: black;
 }
