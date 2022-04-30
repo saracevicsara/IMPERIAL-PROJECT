@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 100%;
   height: 100vh;
@@ -373,16 +376,16 @@ section main h3 {
   height: 50%;
   z-index: 10;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 .subscribe-footer {
-  width: 100%;
+  width: 80%;
   height: 50%;
   z-index: 10;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 .portfolio {
@@ -462,6 +465,25 @@ hr {
 .portfolio-footer {
   width: 100%;
   height: 15vh;
+}
+@media screen and (max-width: 700px) {
+  .portfolio {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .column-img {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .column-img img {
+    width: 100%;
+    height: 30vh;
+  }
 }
 .testimonials {
   width: 100%;
